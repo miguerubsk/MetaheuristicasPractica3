@@ -103,12 +103,23 @@ public class Solucion {
         return tam;
     }
     
+    public boolean igualdad(Solucion sol){
+        if(this.tam == sol.tam){
+            for(int i=0; i<tam; i++){
+                if(this.permutacion[i] != sol.getValorPermutacion(i)){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+    
     public void MostrarSolucion(){
         System.out.printf("Solucion = ");
         for(int i=0; i<tam; i++){
             System.out.printf("%d ",permutacion[i]);
         }
-        System.out.printf("Coste:  %d \n", coste);
+        System.out.printf("\nCoste:  %d", coste);
         System.out.printf("\n");
     }
     

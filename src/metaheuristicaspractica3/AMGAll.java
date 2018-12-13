@@ -15,6 +15,7 @@ import java.util.Random;
  */
 public class AMGAll {
     static final int MAX_GENERACIONES = 1000;
+    static final double PROB_CRUCE = 0.7;
 
     private Poblacion poblacion;
     private Random rand;
@@ -47,7 +48,7 @@ public class AMGAll {
             for(int i=0; i<poblacion.getTam()/2; i++){
                 numGeneracion++;
                 Seleccion();
-                if(rand.nextFloat() < 0.7){
+                if(rand.nextFloat() < PROB_CRUCE){
                     Cruce();
                     Mutacion();
                     nuevaGen.reemplazarIndividuo(hijos[0], i*2);
@@ -160,9 +161,11 @@ public class AMGAll {
         for(int i=0; i<poblacion.getTam(); i++){
             aux[i] = new Solucion(nuevaGen.individuo(i));
         }
-        //Se consigue la elite de 1 individuo
-         aux[poblacion.getTam()-1] = new Solucion(poblacion.individuo(0));
-         
+        //Se consigue la elite de 1 individuo (Si no esta ya incluido)
+        if(!aux[0].igualdad(mejorSol)){
+            aux[poblacion.getTam()-1] = new Solucion(poblacion.individuo(0));
+        }
+        
         //Se reemplaza la nueva generacion
         poblacion = new Poblacion(poblacion, aux);
         poblacion.ordenarPoblacion();
