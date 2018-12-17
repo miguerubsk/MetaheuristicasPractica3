@@ -15,7 +15,6 @@ import java.util.Random;
  */
 public class AMG10 {
     static final int MAX_GENERACIONES = 1000;
-    static final double PROB_CRUCE = 0.7;
     static final int PORCENTAJE = 10;
 
     private Poblacion poblacion;
@@ -26,6 +25,7 @@ public class AMG10 {
     private Poblacion nuevaGen;
     private int numGeneracion;
     private int MAX_ITERACIONES;
+    private boolean mejorIncluido;
     private String rutaLog;
     
     public AMG10(Poblacion _poblacion, int sem, int num_iter, Problema prob, String rutaDatos) {
@@ -41,14 +41,16 @@ public class AMG10 {
         mejorSol = new Solucion(poblacion.individuo(0));
         nuevaGen = new Poblacion(poblacion.getTam(), sem, prob);
         MAX_ITERACIONES = num_iter;
+        mejorIncluido = false;
         rutaLog = rutaDatos + "_AMG10_" + num_iter + "_" + sem + ".log";
     }
     
     public void Ejecutar() {
         while (numGeneracion < MAX_GENERACIONES) {
+            mejorIncluido = false;
             for(int i=0; i<poblacion.getTam()/2; i++){
                 Seleccion();
-                if(rand.nextFloat() < PROB_CRUCE){
+                if(rand.nextFloat() < 0.7){
                     Cruce();
                     Mutacion();
                     nuevaGen.reemplazarIndividuo(hijos[0], i*2);
@@ -57,6 +59,10 @@ public class AMG10 {
                     nuevaGen.reemplazarIndividuo(padres[0], i*2);
                     nuevaGen.reemplazarIndividuo(padres[1], (i*2)+1);
                 }
+            }
+            //Se comprueba si el mejor individuo permenece en la nueva generacion.
+            if(nuevaGen.individuo(0).igualdad(mejorSol)){
+                mejorIncluido = true;
             }
             if(numGeneracion%10 == 0){
                PrimerMejor(); 
@@ -162,11 +168,12 @@ public class AMG10 {
         for(int i=0; i<poblacion.getTam(); i++){
             aux[i] = new Solucion(nuevaGen.individuo(i));
         }
+        
         //Se consigue la elite de 1 individuo (Si no esta ya incluido)
-        if(!aux[0].igualdad(mejorSol)){
+        if(mejorIncluido){
             aux[poblacion.getTam()-1] = new Solucion(poblacion.individuo(0));
         }
-        
+         
         //Se reemplaza la nueva generacion
         poblacion = new Poblacion(poblacion, aux);
         poblacion.ordenarPoblacion();
