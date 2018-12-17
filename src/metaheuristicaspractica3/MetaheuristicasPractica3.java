@@ -64,7 +64,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados.
-                    System.out.print("\n\nALGORITMO MEMETICO ESTACIONARIO (100 iteraciones):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO ESTACIONARIO AME2 (100 iteraciones):\n");
                     ame2_100.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
             
@@ -100,7 +100,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados.
-                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL (100 iteraciones/Busqueda para toda la poblacion):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL AMGAll (100 iteraciones/Busqueda para toda la poblacion):\n");
                     amgall_100.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
             
@@ -136,7 +136,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados.
-                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL (100 iteraciones/Busqueda para un 10% de la poblacion):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL AMG10 (100 iteraciones/Busqueda para un 10% de la poblacion):\n");
                     amg10_100.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
             
@@ -172,7 +172,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados.
-                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL (100 iteraciones/Busqueda para los 3 mejores individuos de la poblacion):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL AMG3 (100 iteraciones/Busqueda para los 3 mejores individuos de la poblacion):\n");
                     amg3_100.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
             
@@ -241,7 +241,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados AME2 100 iteraciones.
-                    System.out.print("\n\nALGORITMO MEMETICO ESTACIONARIO (100 iteraciones):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO ESTACIONARIO ame2 (100 iteraciones):\n");
                     ame2_100_2.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
             
@@ -254,7 +254,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados AME2 500 iteraciones.
-                    System.out.print("\n\nALGORITMO MEMETICO ESTACIONARIO (500 iteraciones):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO ESTACIONARIO ame2 (500 iteraciones):\n");
                     ame2_500_2.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
                     
@@ -267,7 +267,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados AMGAll 100 iteraciones.
-                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL (100 iteraciones/Busqueda para toda la poblacion):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL amgall (100 iteraciones/Busqueda para toda la poblacion):\n");
                     amgall_100_2.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
             
@@ -280,7 +280,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados AMGAll 500 iteraciones.
-                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL (500 iteraciones/Busqueda para toda la poblacion):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL amgall (500 iteraciones/Busqueda para toda la poblacion):\n");
                     amgall_500_2.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
                     
@@ -293,7 +293,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados AMG10 100 iteraciones.
-                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL (100 iteraciones/Busqueda para un 10% de la poblacion):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL amg10 (100 iteraciones/Busqueda para un 10% de la poblacion):\n");
                     amg10_100_2.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
             
@@ -306,7 +306,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados AMG10 500 iteraciones.
-                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL (500 iteraciones/Busqueda para un 10% de la poblacion):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL amg10 (500 iteraciones/Busqueda para un 10% de la poblacion):\n");
                     amg10_500_2.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
                     
@@ -319,7 +319,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados AMG3 100 iteraciones.
-                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL (100 iteraciones/Busqueda para los 3 mejores individuos de la poblacion):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL amg3 (100 iteraciones/Busqueda para los 3 mejores individuos de la poblacion):\n");
                     amg3_100_2.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
             
@@ -332,7 +332,7 @@ public class MetaheuristicasPractica3 {
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados AMG3 500 iteraciones.
-                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL (500 iteraciones/Busqueda para los 3 mejores individuos de la poblacion):\n");
+                    System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL amg3 (500 iteraciones/Busqueda para los 3 mejores individuos de la poblacion):\n");
                     amg3_500_2.mejorSolucion().MostrarSolucion();
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
                 break;
