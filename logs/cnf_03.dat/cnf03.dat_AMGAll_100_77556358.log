@@ -1,0 +1,800 @@
+GENERACION: 5
+Mejor Solucion:  9 13 7 1 2 15 6 10 5 17 16 12 3 14 8 11 0 19 4 18
+Coste: 7717
+
+GENERACION: 10
+Mejor Solucion:  19 4 9 10 11 16 5 6 1 18 17 0 7 3 15 14 2 12 13 8
+Coste: 7348
+
+GENERACION: 15
+Mejor Solucion:  2 1 6 10 11 16 5 13 4 17 18 15 14 3 7 0 19 12 9 8
+Coste: 7040
+
+GENERACION: 20
+Mejor Solucion:  2 4 9 10 11 13 5 6 1 18 0 7 14 3 17 15 19 12 16 8
+Coste: 6999
+
+GENERACION: 25
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 0 7 3 15 14 19 12 16 8
+Coste: 6972
+
+GENERACION: 30
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 0 7 3 15 14 19 12 16 8
+Coste: 6972
+
+GENERACION: 35
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 0 7 3 15 14 19 12 16 8
+Coste: 6972
+
+GENERACION: 40
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6970
+
+GENERACION: 45
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6968
+
+GENERACION: 50
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6968
+
+GENERACION: 55
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6968
+
+GENERACION: 60
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6968
+
+GENERACION: 65
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6968
+
+GENERACION: 70
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6968
+
+GENERACION: 75
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6968
+
+GENERACION: 80
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6968
+
+GENERACION: 85
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6968
+
+GENERACION: 90
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6968
+
+GENERACION: 95
+Mejor Solucion:  2 4 9 11 10 5 13 18 1 6 17 15 14 3 7 0 19 12 16 8
+Coste: 6968
+
+GENERACION: 100
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6967
+
+GENERACION: 105
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 110
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 115
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 120
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 125
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 130
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 135
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 140
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 145
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 150
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 155
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 160
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 165
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 170
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 175
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 180
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 185
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 190
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 195
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 200
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 205
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 210
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 215
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 220
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 225
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 230
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 235
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 240
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 245
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 250
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 255
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 260
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 265
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 270
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 275
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 280
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 285
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 290
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 295
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 300
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 305
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 310
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 315
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 320
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 325
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 330
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 335
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 340
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 345
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 350
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 355
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 360
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 365
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 370
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 375
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 380
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 385
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 390
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 395
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 400
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 405
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 410
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 415
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 420
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 425
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 430
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 435
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 440
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 445
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 450
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 455
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 460
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 465
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 470
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 475
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 480
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 485
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 490
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 495
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 500
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 505
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 510
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 515
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 520
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 525
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 530
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 535
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 540
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 545
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 550
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 555
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 560
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 565
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 570
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 575
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 580
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 585
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 590
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 595
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 600
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 605
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 610
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 615
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 620
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 625
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 630
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 635
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 640
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 645
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 650
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 655
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 660
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 665
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 670
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 675
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 680
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 685
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 690
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 695
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 700
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 705
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 710
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 715
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 720
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 725
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 730
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 735
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 740
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 745
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 750
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 755
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 760
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 765
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 770
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 775
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 780
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 785
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 790
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 795
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 800
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 805
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 810
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 815
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 820
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 825
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 830
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 835
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 840
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 845
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 850
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 855
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 860
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 865
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 870
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 875
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 880
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 885
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 890
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 895
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 900
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 905
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 910
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 915
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 920
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 925
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 930
+Mejor Solucion:  2 4 1 10 11 6 13 18 16 5 17 0 7 14 15 8 19 12 9 3
+Coste: 6966
+
+GENERACION: 935
+Mejor Solucion:  2 4 1 11 10 6 13 18 16 5 17 15 8 14 0 7 19 12 9 3
+Coste: 6962
+
+GENERACION: 940
+Mejor Solucion:  2 4 1 11 10 6 13 18 16 5 17 15 8 14 0 7 19 12 9 3
+Coste: 6962
+
+GENERACION: 945
+Mejor Solucion:  2 4 1 11 10 6 13 18 16 5 17 15 8 14 0 7 19 12 9 3
+Coste: 6962
+
+GENERACION: 950
+Mejor Solucion:  2 4 1 11 10 6 13 18 16 5 17 15 8 14 0 7 19 12 9 3
+Coste: 6962
+
+GENERACION: 955
+Mejor Solucion:  2 4 1 11 10 6 13 18 16 5 17 15 8 14 0 7 19 12 9 3
+Coste: 6962
+
+GENERACION: 960
+Mejor Solucion:  2 4 1 11 10 6 13 18 16 5 17 15 8 14 0 7 19 12 9 3
+Coste: 6962
+
+GENERACION: 965
+Mejor Solucion:  2 4 1 11 10 6 13 18 16 5 17 15 8 14 0 7 19 12 9 3
+Coste: 6962
+
+GENERACION: 970
+Mejor Solucion:  2 4 9 11 10 5 6 17 1 13 18 15 8 14 0 7 19 12 16 3
+Coste: 6955
+
+GENERACION: 975
+Mejor Solucion:  2 4 9 11 10 5 6 17 1 13 18 15 8 14 0 7 19 12 16 3
+Coste: 6948
+
+GENERACION: 980
+Mejor Solucion:  2 4 9 11 10 5 6 17 1 13 18 15 8 14 0 7 19 12 16 3
+Coste: 6948
+
+GENERACION: 985
+Mejor Solucion:  2 4 9 11 10 5 6 17 1 13 18 15 8 14 0 7 19 12 16 3
+Coste: 6948
+
+GENERACION: 990
+Mejor Solucion:  2 4 9 11 10 5 6 17 1 13 18 15 8 14 0 7 19 12 16 3
+Coste: 6948
+
+GENERACION: 995
+Mejor Solucion:  2 4 9 11 10 5 6 17 1 13 18 15 8 14 0 7 19 12 16 3
+Coste: 6948
+
+GENERACION: 1000
+Mejor Solucion:  2 4 9 11 10 5 6 17 1 13 18 15 8 14 0 7 19 12 16 3
+Coste: 6948
+
