@@ -24,6 +24,7 @@ public class AMG3 {
     private Poblacion nuevaGen;
     private int numGeneracion;
     private int MAX_ITERACIONES;
+    private boolean mejorIncluido;
     private String rutaLog;
     
     public AMG3(Poblacion _poblacion, int sem, int num_iter, Problema prob, String rutaDatos) {
@@ -39,11 +40,13 @@ public class AMG3 {
         mejorSol = new Solucion(poblacion.individuo(0));
         nuevaGen = new Poblacion(poblacion.getTam(), sem, prob);
         MAX_ITERACIONES = num_iter;
+        mejorIncluido = false;
         rutaLog = rutaDatos + "_AMG3_" + num_iter + "_" + sem + ".log";
     }
     
     public void Ejecutar() {
         while (numGeneracion < MAX_GENERACIONES) {
+            mejorIncluido = false;
             for(int i=0; i<poblacion.getTam()/2; i++){
                 Seleccion();
                 if(rand.nextFloat() < 0.7){
@@ -55,6 +58,10 @@ public class AMG3 {
                     nuevaGen.reemplazarIndividuo(padres[0], i*2);
                     nuevaGen.reemplazarIndividuo(padres[1], (i*2)+1);
                 }
+            }
+            //Se comprueba si el mejor individuo permenece en la nueva generacion.
+            if(nuevaGen.individuo(0).igualdad(mejorSol)){
+                mejorIncluido = true;
             }
             nuevaGen.ordenarPoblacion();
             if(numGeneracion%10 == 0){
@@ -161,8 +168,11 @@ public class AMG3 {
         for(int i=0; i<poblacion.getTam(); i++){
             aux[i] = new Solucion(nuevaGen.individuo(i));
         }
-        //Se consigue la elite de 1 individuo
-         aux[poblacion.getTam()-1] = new Solucion(poblacion.individuo(0));
+        
+        //Se consigue la elite de 1 individuo (Si no esta ya incluido)
+        if(mejorIncluido){
+            aux[poblacion.getTam()-1] = new Solucion(poblacion.individuo(0));
+        }
          
         //Se reemplaza la nueva generacion
         poblacion = new Poblacion(poblacion, aux);
