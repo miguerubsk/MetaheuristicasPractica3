@@ -6,8 +6,13 @@
 package metaheuristicaspractica3;
 
 import java.io.BufferedInputStream;
+import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
 
 /**
  *
@@ -21,12 +26,25 @@ public class MetaheuristicasPractica3 {
     static final int ITERACIONES1 = 100;
     static final int ITERACIONES2 = 500;
     
+    
+    public static void leerfichero(ArrayList lista, String fichero) throws FileNotFoundException, IOException{
+        FileReader f = new FileReader(fichero);
+        BufferedReader b = new BufferedReader(f);
+        String cadena;
+        while((cadena = b.readLine())!=null) {
+            Integer semilla = Integer.parseInt(cadena);
+            lista.add(semilla);
+    }
+    };
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         
         try{
+            ArrayList<Integer> semillas = new ArrayList<>();
+            leerfichero(semillas, "semillas.txt");
             DataInputStream datos = new DataInputStream(new BufferedInputStream(new FileInputStream(FICHERO_PARAM)));
             String s;
             
@@ -190,8 +208,11 @@ public class MetaheuristicasPractica3 {
                     System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
                 break;
                 default:
+                    for (int l = 0; l < 5; l++){
+                        System.out.println("EJECUCION "+l);
+                        System.out.println("SEMILLA: "+semillas.get(l));
                     //Se obtiene una poblacion inicial aleatoria para el algoritmo AME2 de 100 iteraciones.
-                    Poblacion poblacionAME2_100_2 = new Poblacion(TAM_POBLACION_ESTACIONARIO, sem, problema);
+                    Poblacion poblacionAME2_100_2 = new Poblacion(TAM_POBLACION_ESTACIONARIO, semillas.get(l), problema);
                     poblacionAME2_100_2.ordenarPoblacion();
                     
                     //Se copia esa poblacion para el algoritmo AME2 de 500 iteraciones
@@ -202,7 +223,7 @@ public class MetaheuristicasPractica3 {
                     Poblacion poblacionAME2_500_2 = new Poblacion(poblacionAME2_100_2, aux5);
                     
                     //Se obtiene una poblacion inicial aleatoria para el algoritmo AMGAll de 100 iteraciones.
-                    Poblacion poblacionAMGAll_100_2 = new Poblacion(TAM_POBLACION_GENERACIONAL, sem, problema);
+                    Poblacion poblacionAMGAll_100_2 = new Poblacion(TAM_POBLACION_GENERACIONAL, semillas.get(l), problema);
                     poblacionAMGAll_100_2.ordenarPoblacion();
                     
                     //Se copia esa poblacion para el algoritmo AMGAll de 500 iteraciones
@@ -213,7 +234,7 @@ public class MetaheuristicasPractica3 {
                     Poblacion poblacionAMGAll_500_2 = new Poblacion(poblacionAMGAll_100_2, aux6);
                     
                     //Se obtiene una poblacion inicial aleatoria para el algoritmo AMG10 de 100 iteraciones.
-                    Poblacion poblacionAMG10_100_2 = new Poblacion(TAM_POBLACION_GENERACIONAL, sem, problema);
+                    Poblacion poblacionAMG10_100_2 = new Poblacion(TAM_POBLACION_GENERACIONAL, semillas.get(l), problema);
                     poblacionAMG10_100_2.ordenarPoblacion();
                     
                     //Se copia esa poblacion para el algoritmo AMG10 de 500 iteraciones
@@ -224,7 +245,7 @@ public class MetaheuristicasPractica3 {
                     Poblacion poblacionAMG10_500_2 = new Poblacion(poblacionAMG10_100_2, aux7);
                     
                     //Se obtiene una poblacion inicial aleatoria para el algoritmo AMG3 de 100 iteraciones.
-                    Poblacion poblacionAMG3_100_2 = new Poblacion(TAM_POBLACION_GENERACIONAL, sem, problema);
+                    Poblacion poblacionAMG3_100_2 = new Poblacion(TAM_POBLACION_GENERACIONAL, semillas.get(l), problema);
                     poblacionAMG3_100_2.ordenarPoblacion();
                     
                     //Se copia esa poblacion para el algoritmo AMG3 de 500 iteraciones
@@ -236,7 +257,7 @@ public class MetaheuristicasPractica3 {
                     
                     //Ejecucion para AME2 100 iteraciones.
                     startTime = System.currentTimeMillis();
-                    AME2 ame2_100_2 = new AME2(poblacionAME2_100_2, sem, ITERACIONES1, problema, rutaDatos);
+                    AME2 ame2_100_2 = new AME2(poblacionAME2_100_2, semillas.get(l), ITERACIONES1, problema, rutaDatos);
                     ame2_100_2.Ejecutar();
                     endTime = System.currentTimeMillis() - startTime;
                     
@@ -249,7 +270,7 @@ public class MetaheuristicasPractica3 {
                     
                     //Ejecucion para AME2 500 iteraciones.
                     startTime = System.currentTimeMillis();
-                    AME2 ame2_500_2 = new AME2(poblacionAME2_500_2, sem, ITERACIONES2, problema, rutaDatos);
+                    AME2 ame2_500_2 = new AME2(poblacionAME2_500_2, semillas.get(l), ITERACIONES2, problema, rutaDatos);
                     ame2_500_2.Ejecutar();
                     endTime = System.currentTimeMillis() - startTime;
                     
@@ -262,7 +283,7 @@ public class MetaheuristicasPractica3 {
                     
                     //Ejecucion para AMGAll 100 iteraciones.
                     startTime = System.currentTimeMillis();
-                    AMGAll amgall_100_2 = new AMGAll(poblacionAMGAll_100_2, sem, ITERACIONES1, problema, rutaDatos);
+                    AMGAll amgall_100_2 = new AMGAll(poblacionAMGAll_100_2, semillas.get(l), ITERACIONES1, problema, rutaDatos);
                     amgall_100_2.Ejecutar();
                     endTime = System.currentTimeMillis() - startTime;
                     
@@ -275,7 +296,7 @@ public class MetaheuristicasPractica3 {
                     
                     //Ejecucion para AMGAll 500 iteraciones.
                     startTime = System.currentTimeMillis();
-                    AMGAll amgall_500_2 = new AMGAll(poblacionAMGAll_500_2, sem, ITERACIONES2, problema, rutaDatos);
+                    AMGAll amgall_500_2 = new AMGAll(poblacionAMGAll_500_2, semillas.get(l), ITERACIONES2, problema, rutaDatos);
                     amgall_500_2.Ejecutar();
                     endTime = System.currentTimeMillis() - startTime;
                     
@@ -288,7 +309,7 @@ public class MetaheuristicasPractica3 {
                     
                     //Ejecucion para AMG10 100 iteraciones.
                     startTime = System.currentTimeMillis();
-                    AMG10 amg10_100_2 = new AMG10(poblacionAMG10_100_2, sem, ITERACIONES1, problema, rutaDatos);
+                    AMG10 amg10_100_2 = new AMG10(poblacionAMG10_100_2, semillas.get(l), ITERACIONES1, problema, rutaDatos);
                     amg10_100_2.Ejecutar();
                     endTime = System.currentTimeMillis() - startTime;
                     
@@ -301,7 +322,7 @@ public class MetaheuristicasPractica3 {
                     
                     //Ejecucion para AMG10 500 iteraciones.
                     startTime = System.currentTimeMillis();
-                    AMG10 amg10_500_2 = new AMG10(poblacionAMG10_500_2, sem, ITERACIONES2, problema, rutaDatos);
+                    AMG10 amg10_500_2 = new AMG10(poblacionAMG10_500_2, semillas.get(l), ITERACIONES2, problema, rutaDatos);
                     amg10_500_2.Ejecutar();
                     endTime = System.currentTimeMillis() - startTime;
                     
@@ -314,7 +335,7 @@ public class MetaheuristicasPractica3 {
                     
                     //Ejecucion para AMG3 100 iteraciones.
                     startTime = System.currentTimeMillis();
-                    AMG3 amg3_100_2 = new AMG3(poblacionAMG3_100_2, sem, ITERACIONES1, problema, rutaDatos);
+                    AMG3 amg3_100_2 = new AMG3(poblacionAMG3_100_2, semillas.get(l), ITERACIONES1, problema, rutaDatos);
                     amg3_100_2.Ejecutar();
                     endTime = System.currentTimeMillis() - startTime;
                     
@@ -327,14 +348,15 @@ public class MetaheuristicasPractica3 {
                     
                     //Ejecucion para AMG3 500 iteraciones.
                     startTime = System.currentTimeMillis();
-                    AMG3 amg3_500_2 = new AMG3(poblacionAMG3_500_2, sem, ITERACIONES2, problema, rutaDatos);
+                    AMG3 amg3_500_2 = new AMG3(poblacionAMG3_500_2, semillas.get(l), ITERACIONES2, problema, rutaDatos);
                     amg3_500_2.Ejecutar();
                     endTime = System.currentTimeMillis() - startTime;
                     
                     //Obtención de resultados AMG3 500 iteraciones.
                     System.out.print("\n\nALGORITMO MEMETICO GENERACIONAL amg3 (500 iteraciones/Busqueda para los 3 mejores individuos de la poblacion):\n");
                     amg3_500_2.mejorSolucion().MostrarSolucion();
-                    System.out.println("\nTiempo de ejecucion: " + endTime + " ms.");
+                    System.out.println("\nTiempo de ejecucion: " + endTime + " ms.\n\n\n\n\n\n");
+                    }
                 break;
             }
         }catch(Exception e){
